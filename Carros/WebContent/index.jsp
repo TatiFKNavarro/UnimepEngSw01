@@ -8,5 +8,12 @@
 </head>
 <body>
 	Hello World!
+	<form method="post" action="<%=request.getContextPath()%>/HelloServlet">
+		Nome: <input type="text" name="nome" />
+		<br /><br />
+		Sobrenome: <input type="text" name="sobrenome" />
+		<br />
+		<input type="submit" name="Enviar" />
+	</form>
 </body>
 </html>

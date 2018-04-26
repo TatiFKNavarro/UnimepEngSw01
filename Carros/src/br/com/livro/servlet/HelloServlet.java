@@ -33,15 +33,25 @@ public class HelloServlet extends HttpServlet {
 		
 		String nome = request.getParameter("nome");
 		String sobrenome = request.getParameter("sobrenome");
-		response.getWriter().print("Olá mundo!" + nome + " " + sobrenome);
+		response.getWriter().print("METODO GET ==> " + nome + " " + sobrenome);
 	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
+		String nome = request.getParameter("nome");
+		String sobrenome = request.getParameter("sobrenome");
+		response.getWriter().print("METODO POST ==> " + nome + " " + sobrenome);
+	}
+	
+
+	protected void doPut(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.getWriter().print("METODO PUT");
+	}
+	
+	protected void doDelete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.getWriter().print("METODO DELETE");
 	}
 
 }
