@@ -18,7 +18,7 @@ public class BaseDAO {
 
 	protected Connection getConnection() throws SQLException {
 		// URL de conexão com o banco de dados
-		String url = "jdbc:mysql://localhost/livro";
+		String url = "jdbc:mysql://localhost/livro?autoReconnect=true&useSSL=false";
 		// Conecta utilizando a URL, usuário e senha.
 		Connection conn = DriverManager.getConnection(url, "livro", "livro123");
 		return conn;
