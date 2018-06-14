@@ -12,6 +12,6 @@ Integrantes:
 
 - Tatiane Navarro
 
-Quinto semetre de Sistemas de Informação, Unimep Taquaral.
+_Quinto semetre de Sistemas de Informação, Unimep Taquaral._
 
-Engenharia de Software.
+_Engenharia de Software._
