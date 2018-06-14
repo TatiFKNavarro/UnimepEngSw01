@@ -11,3 +11,7 @@ Integrantes:
 - Hugo Peressin
 
 - Tatiane Navarro
+
+Quinto semetre de Sistemas de Informação, Unimep Taquaral.
+
+Engenharia de Software.
