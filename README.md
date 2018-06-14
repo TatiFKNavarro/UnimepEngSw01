@@ -1,13 +1,13 @@
 # UnimepEngSw01
 
-Grupo 1
+**Grupo 1**
 
 Integrantes:
 
-Christian Senna
+- Christian Senna
 
-Gabriel Rocha
+- Gabriel Rocha
 
-Hugo Peressin
+- Hugo Peressin
 
-Tatiane Navarro
+- Tatiane Navarro
